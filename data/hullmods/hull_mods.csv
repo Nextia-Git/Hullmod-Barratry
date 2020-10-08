@@ -1,0 +1,54 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite,Column 20
+Efficiency Overhaul,efficiency_overhaul,0,,,req_spaceport,"Logistics, Requires Dock",4000,,,,3,6,9,15,data.hullmods.EfficiencyOverhaul,"Reduces supply use for maintenance, fuel use, and minimum crew required by %s.
+
+Increases the combat readiness recovery and repair rates by %s. The per-day supply consumption for CR recovery is increased to account for the increased recovery rate, but the total supply cost remains the same.",Reduces ongoing costs and enables more deployments.,graphics/hullmods/efficiency.png,
+Efficiency Revamp I,AdvancedEfficiency1,0,,,"special, req_spaceport","Special, Logistics, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.AdvancedEfficiency1,Reduces maintenance costs by %s,Reduces maintenance costs by %s,graphics/hullmods/advancedefficiency1.png,
+Efficiency Revamp II,AdvancedEfficiency2,0,,,"special, req_spaceport","Special, Logistics, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.AdvancedEfficiency2,Reduces maintenance costs by %s,Reduces maintenance costs by %s,graphics/hullmods/advancedefficiency2.png,
+Efficiency Revamp III,AdvancedEfficiency3,0,,,"special, req_spaceport","Special, Logistics, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.AdvancedEfficiency3,Reduces maintenance costs by %s,Reduces maintenance costs by %s,graphics/hullmods/advancedefficiency3.png,
+Efficiency Revamp IV,AdvancedEfficiency4,0,,,"special, req_spaceport","Special, Logistics, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.AdvancedEfficiency4,Reduces maintenance costs by %s,Reduces maintenance costs by %s,graphics/hullmods/advancedefficiency4.png,
+Compromised Armor,comp_armor,0,,,"dmod, damage, damageStruct, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.CompromisedArmor,"This ship's armor has taken major and irreparable damage at some point in the past, or suffered from major errors in the manufacturing process. Armor rating reduced by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/compromised_armor.png,
+Compromised Hull,comp_hull,0,,,"dmod, damage, damageStruct, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.CompromisedHull,"This ship's hull has taken major and irreparable damage at some point in the past, or suffered from major errors in the manufacturing process. Hull integrity reduced by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/compromised_hull.png,
+Degraded Engines,degraded_engines,0,,,"dmod, damage, civ, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.DegradedEngines,"Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's engines are suffering from permanently degraded performance. 
+
+Top speed and maneuverability in combat reduced by %s. Maximum burn level decreased by %s. Sensor profile increased by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/degraded_engines.png,
+Faulty Power Grid,faulty_grid,0,,,"dmod, damage, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.FaultyPowerGrid,"Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's power grid will never be capable of achieving peak performance.
+
+Flux capacity reduced by %s. Flux dissipation rate reduced by %s. Sensor profile increased by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/faulty_power_grid.png,
+Phase Coil Instability,unstable_coils,0,,,"dmod, phaseDamage, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.PhaseCoilInstability,"The phase coils on this ship are impossible to calibrate properly due to subtle flaws. Reduces the phase-time bonus by %s, reduces the peak performance time by %s, and increases the rate at which combat readiness degrades by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/phase_coil_instability.png,
+Structural Damage,comp_structure,0,,,"dmod, damageStruct, destroyedDamageAlways, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStructure,"This ship's hull has likely taken extreme damage in the past, possibly to the point of breaking apart. Armor rating reduced by %s, hull integrity reduced by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/structural_damage.png,
+Glitched Sensor Array,glitched_sensors,0,,,"dmod, damage, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.GlitchedSensorArray,"The ship's sensor array is damaged past any repair short of a complete hull overhaul. Weapon range in combat reduced by %s. Sensor strength reduced by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/glitched_sensor_array.png,
+Malfunctioning Comms,malfunctioning_comms,0,,,"dmod, fighterBayDamage, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.MalfunctioningComms,"The comm system has suffered serious damage, making punching through battlefield jamming even more of a challenge. Fighter engagement range reduced by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/malfunctioning_comms.png,
+Defective Manufactory,defective_manufactory,0,,,"dmod, fighterBayDamage, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.DefectiveManufactory,"The manufactory that produces fighter chassis is unreliable, and most components have minor defects. Fighter speed reduced by %s, and damage taken increased by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/defective_manufactory.png,
+Damaged Flight Deck,damaged_deck,0,,,"dmod, fighterBayDamage, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.DamagedFlightDeck,"The flight decks on this ship have taken major damage and seriously interfere with normal operation. Time to launch replacement fighters is increased by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/damaged_flight_deck.png,
+Unreliable Subsystems,fragile_subsystems,0,,,"dmod, damage, peak_time, notPhase, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FragileSubsystems,"A widespread loss of redundant components reduces peak operating time by %s, and increases the rate at which combat readiness degrades by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/fragile_subsystems.png,
+Compromised Storage,comp_storage,0,,,"dmod, damage, civOnly, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStorage,"The storage capacity of this ship is significantly degraded. Crew, cargo, and fuel capacity reduced by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/compromised_storage.png,
+Increased Maintenance,increased_maintenance,0,,,"dmod, damage, civ, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.IncreasedMaintenance,"Increases the monthly maintenance supply cost by %s. Increases minimum crew required by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/increased_maintenance.png,
+Erratic Fuel Injector,erratic_injector,0,,,"dmod, damage, civ, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ErraticInjector,"Increases fuel use by %s.
+
+Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/erratic_injector.png,

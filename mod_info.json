@@ -1,0 +1,9 @@
+{
+	"id":"hm_barratry",
+	"name":"Hullmod Barratry",
+	"author":"Nextia",
+	"version":"1.0 release",
+	"description":"Adds D-mods as applyable hullmods, along with some other scrapped together and (probably) overpowered hullmods to use at your discretion",
+	"gameVersion":"0.9.1a-RC8",
+	"jars":["jars/Hullmod_barratry.jar"],
+}
