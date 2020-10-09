@@ -1,11 +1,4 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite,Column 20
-Efficiency Overhaul,efficiency_overhaul,0,,,req_spaceport,"Logistics, Requires Dock",4000,,,,3,6,9,15,data.hullmods.EfficiencyOverhaul,"Reduces supply use for maintenance, fuel use, and minimum crew required by %s.
-
-Increases the combat readiness recovery and repair rates by %s. The per-day supply consumption for CR recovery is increased to account for the increased recovery rate, but the total supply cost remains the same.",Reduces ongoing costs and enables more deployments.,graphics/hullmods/efficiency.png,
-Efficiency Revamp I,AdvancedEfficiency1,0,,,"special, req_spaceport","Special, Logistics, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.AdvancedEfficiency1,Reduces maintenance costs by %s,Reduces maintenance costs by %s,graphics/hullmods/advancedefficiency1.png,
-Efficiency Revamp II,AdvancedEfficiency2,0,,,"special, req_spaceport","Special, Logistics, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.AdvancedEfficiency2,Reduces maintenance costs by %s,Reduces maintenance costs by %s,graphics/hullmods/advancedefficiency2.png,
-Efficiency Revamp III,AdvancedEfficiency3,0,,,"special, req_spaceport","Special, Logistics, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.AdvancedEfficiency3,Reduces maintenance costs by %s,Reduces maintenance costs by %s,graphics/hullmods/advancedefficiency3.png,
-Efficiency Revamp IV,AdvancedEfficiency4,0,,,"special, req_spaceport","Special, Logistics, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.AdvancedEfficiency4,Reduces maintenance costs by %s,Reduces maintenance costs by %s,graphics/hullmods/advancedefficiency4.png,
 Compromised Armor,comp_armor,0,,,"dmod, damage, damageStruct, req_spaceport","D-Mods, Requires Dock",1,TRUE,,,0,0,0,0,data.hullmods.CompromisedArmor,"This ship's armor has taken major and irreparable damage at some point in the past, or suffered from major errors in the manufacturing process. Armor rating reduced by %s.
 
 Supply cost to recover from deployment reduced by %s.","Applicable, removable D-Mod",graphics/hullmods/compromised_armor.png,
